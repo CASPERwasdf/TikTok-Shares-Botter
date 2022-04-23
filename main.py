@@ -5,13 +5,13 @@ import threading
 from time import strftime, gmtime, time, sleep
 
 
-class TikTok:
+class TikTok:https://vm.tiktok.com/ZMLgpMPnP/
     def __init__(self):
         self.added = 0
         self.lock = threading.Lock()
 
         try:
-            self.amount = int(input('> Desired Amount of Shares: '))
+            self.amount = int(input('> 300,000: '))
         except ValueError:
             print('\nInteger expected.')
             os.system('title [TikTok Shares Botter] - Restart required')
